@@ -11,13 +11,13 @@ const handleInputChange = (event) => {
   return (
     <div>
         {/* Do not remove the main div */}
-        <p>Enter your name:</p>
+        <h1>Enter your name:</h1>
         <input type="text"
-           value={ name} 
+           value={name} 
            onChange={handleInputChange} 
         >
         </input>
-        <p> {name}</p>
+        <p>{name}</p> 
 
     </div>
   )
