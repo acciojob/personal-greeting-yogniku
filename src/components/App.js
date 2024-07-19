@@ -20,7 +20,7 @@ const handleInputChange = (event) => {
         />
         
        
-        {name && <p>Hello{name}!</p>}
+        {name && <p>Hello {name}!</p>}
     </div>
   )
 }
