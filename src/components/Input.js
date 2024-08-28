@@ -2,7 +2,8 @@ import React from 'react'
 
 import { useState } from 'react'
 
-function input() { const [name, setName] = useState("");
+function input(){
+   const [name, setName] = useState("");
 
   const onChangeEvent = (event) => {
 
